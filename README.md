@@ -1,4 +1,4 @@
-# emscripten_memory_test
+# Emscripten Memory Test
 
 This repository contains small WebAssembly program, which showcases the situation where Emscripten is unable to release memory from the Module object which is supposed to be garbage collected at that point.
 
