@@ -7,7 +7,7 @@ emcc                                                            \
     -s ASSERTIONS=1                                             \
     -s MODULARIZE=1                                             \
     -O2                                                         \
-    -s TOTAL_MEMORY=1342177280                                  \
+    -s TOTAL_MEMORY=134217728                                   \
     -o exampleClass.bc                                          \
 
  emcc                                                           \
@@ -21,6 +21,6 @@ emcc                                                            \
     -s DISABLE_EXCEPTION_CATCHING=0                             \
     -s ASSERTIONS=2                                             \
     -s MODULARIZE=1                                             \
-    -s TOTAL_MEMORY=1342177280                                  \
+    -s TOTAL_MEMORY=134217728                                   \
     exampleClass.bc                                             \
     -o exampleClass.js                                          \
