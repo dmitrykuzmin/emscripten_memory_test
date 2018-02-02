@@ -9,7 +9,9 @@ void Example::testMethod()
 {
   printf("Now in test method");
 
+  SDL_Event event;
+
   // This line doesn't let emscripten release Module's occupied memory.
   // Comment it out to let the memory be released with Module object destruction.
-  SDL_Init(SDL_INIT_VIDEO);
+  SDL_PollEvent(&event);
 }
